@@ -121,6 +121,7 @@ npm install --save twilio-common
 
 * [從零到五億: Twilio – CEO勞森傳奇故事錄](https://tenten.co/blog/twilio-jeff-lawson/)
 * [價目表](https://www.twilio.com/pricing)
+  * [Chat Pricing](https://www.twilio.com/chat/pricing)
 * [Javascript API Reference](https://www.twilio.com/docs/chat/sdk-javascript)
 * [REST API Reference](https://www.twilio.com/docs/api/chat/rest)
 * [User Identity & Access Tokens](https://www.twilio.com/docs/chat/identity)
