@@ -1,7 +1,5 @@
 # twilio-chat-tutorial
 
-[Twilio Console](https://www.twilio.com/console/chat/dashboard)
-
 ## 簡介
 
 提供 API 服務，企業文化： 一旦開始，就要不斷學習和改善，做好剩下的工作
@@ -120,7 +118,7 @@ npm install --save twilio-common
 
 可用來監控或互動
 
-## Twilio Console
+## [Twilio Console](https://www.twilio.com/console/chat/dashboard)
 
 ### 儀表板
 
