@@ -155,6 +155,15 @@ npm install --save twilio-common
 
 ![channels](/images/6-channels.png)
 
+## [REST API](https://www.twilio.com/docs/chat/rest)
+
+* 必備資料
+  * Account SID
+  * Auth token
+  * Service SID
+* 搭配 curl 使用就是 Debug 好工具
+* Application 使用時記得設定到環境變數
+
 ## 參考資料
 
 * [從零到五億: Twilio – CEO勞森傳奇故事錄](https://tenten.co/blog/twilio-jeff-lawson/)
