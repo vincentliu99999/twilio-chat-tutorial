@@ -126,3 +126,4 @@ npm install --save twilio-common
 * [User Identity & Access Tokens](https://www.twilio.com/docs/chat/identity)
 * [Twilio 限制](https://www.twilio.com/docs/chat/chat-limits)
 * [Secure and Scale Programmable Chat Applications](https://www.twilio.com/docs/chat/secure-and-scale-programmable-chat-applications)
+* [Chat with Node.js and Express](https://www.twilio.com/docs/chat/tutorials/chat-application-node-express)
