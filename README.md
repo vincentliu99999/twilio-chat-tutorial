@@ -12,7 +12,7 @@
   * 電話
   * 傳真
   * 聊天機器人
-* 活躍的 [平台傳教者](https://www.twilio.com/blog/tag/evangelism)
+* 活躍的 [平台傳教者](https://www.twilio.com/blog/tag/evangelism), EX [Phil Nash](https://github.com/philnash)
 * 基礎架構: AWS
 
 ## Programmable Chat
