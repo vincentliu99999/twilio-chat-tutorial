@@ -87,7 +87,7 @@ npm install --save twilio-common
 * 服務層: User 可以看到哪些小圈圈、加入、建立
 * Channel 層: User 可以在小圈圈做哪些事
 
-### [輸入提示](https://www.twilio.com/docs/chat/typing-indicator)
+### [訊息輸入提示](https://www.twilio.com/docs/chat/typing-indicator)
 
 * 需由 Client 端發送，而非 SDK 內建幫你做好好
 * 為了優化網路, chat client 僅會每 5 秒發送
@@ -96,26 +96,66 @@ npm install --save twilio-common
 
 狀態在多個 device 間是同步的，基於 `lastConsumedMessageIndex`，但他有可能是 `0` 或 `null`，讀取狀態每 10 秒才會發送，可透過 REST API 設定 `ConsumptionReportInterval`
 
-* 有沒有讀？
-* 讀到哪了？
-
-設定方式
-
-* 全部已讀取
-* 全部未讀取
-* 讀到某一則 by message index
+* 功能
+  * 有沒有讀？
+  * 讀到哪了？
+* 設定方式
+  * 全部已讀取
+  * 全部未讀取
+  * 讀到某一則 by `message index`
 
 ### [推播通知](https://www.twilio.com/docs/chat/push-notification-configuration)
 
-整合 APN (iOS), GCM/FCM (Android and browsers)，可指定[哪一類通知要發送](https://www.twilio.com/docs/chat/push-notification-configuration#push-types)，以及[發送訊息的樣板](https://www.twilio.com/docs/chat/push-notification-configuration#push-templates)，樣板皆有預設值，可自行 override
+整合 APN (iOS), GCM/FCM (Android and browsers)，可指定[哪一類通知要發送](https://www.twilio.com/docs/chat/push-notification-configuration#push-types)，以及[發送訊息的樣板](https://www.twilio.com/docs/chat/push-notification-configuration#push-templates)，樣板皆有預設值，可自行 override。通知的 payload 最多 110 字元，超過的會截斷
 
-通知的 payload 最多 110 字元，超過的會截斷
+* 類型
+  * `New Message`
+  * `Added to Channel`
+  * `Invited to Channel`
+  * `Removed from Channel`
 
 * [Push Notifications on Web](https://www.twilio.com/docs/chat/javascript/push-notifications-web)
 
 ### [Webhook Events](https://www.twilio.com/docs/chat/webhook-events)
 
 可用來監控或互動
+
+## Twilio Console
+
+### 儀表板
+
+* Account SID
+* Auth token
+* Services
+
+![dashboard](/images/1-dashboard.png)
+
+### 用量
+
+* users
+* messages
+
+![usage](/images/2-usage.png)
+
+### 角色/權限
+
+可自行新增
+
+![roles](/images/3-roles.png)
+
+### 使用者
+
+![users](/images/4-users.png)
+
+### 推播
+
+可客製化推播訊息
+
+![push](/images/5-push.png)
+
+### 聊天室
+
+![channels](/images/6-channels.png)
 
 ## 參考資料
 
