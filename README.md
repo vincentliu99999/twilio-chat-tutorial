@@ -47,7 +47,7 @@
 
 ## Programmable Chat
 
-運用跨平台 SDK(iOS, Android, Web, REST API) 賦予多人聊天功能、權限控管、Push notifications，Client side, Server side API 提供開發者運用
+運用跨平台 SDK(iOS, Android, Web, REST API) 賦予多人聊天功能、權限控管、Push notifications，Client side, Server side API 提供開發者運用，[SDK Changelog](https://www.twilio.com/docs/chat/javascript/changelog)
 
 ### 帳號資訊
 
